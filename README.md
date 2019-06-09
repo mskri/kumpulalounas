@@ -15,3 +15,17 @@ Start development server and then navigate to [localhost:8080](http://localhost:
 ```bash
 npm run dev
 ```
+
+## Deploy to now.sh
+
+Run build
+```bash
+npm run build
+```
+
+Change to public folder and deploy to production
+
+```bash
+cd public
+now --target production
+```
