@@ -12,17 +12,17 @@
                             "Porsaanleike L Pippurimajoneesi L,G",
                             "Currykana L,G",
                             "Kinkku-sipulimunakas L,G",
-                            "Rapea Bac King h�rk� L",
+                            "Rapea Bac King härkä L",
                             "Possua mustapapukastikkeessa L,G",
                             "Sieni-kasvispannu V,G",
-                            "Tofua inkiv��ri-korianterikastikkeessa  V,G",
-                            "Linssit�ytteiset munakoisot L,G",
+                            "Tofua inkivääri-korianterikastikkeessa  V,G",
+                            "Linssitäytteiset munakoisot L,G",
                             "Cheddar-paprikakeitto L,G",
                             "Banaani-persikkarahka L,G",
                             "Vaniljapehmis L,G"
                         ],
                         "pizzas": ["Pepperoni-Jalapeno-Ananas", "Feta-Paprika-Oliivi"],
-                        "salads": ["Kebabsalaatti M,G", "Hedelm�inen leip�juustosalaatti L,G"]
+                        "salads": ["Kebabsalaatti M,G", "Hedelmäinen leipäjuustosalaatti L,G"]
                     },
                     {
                         "day": "Tiistai",
@@ -32,9 +32,9 @@
                             "Meksikolainen nautakastike L,G",
                             "Broileri-pastavuoka L",
                             "Hunajainen rapea kala L",
-                            "Possua inkiv��ri-valkosipulikastikkeessa L,G",
+                            "Possua inkivääri-valkosipulikastikkeessa L,G",
                             "Feta-purjopiiras L",
-                            "Tofua ja kikherneit� currykastikkeessa V,G",
+                            "Tofua ja kikherneitä currykastikkeessa V,G",
                             "Chilimaustetut lehtivihannekset V,G",
                             "Curry-linssikeitto L,G",
                             "Herukka-valkosuklaamousse L,G",
@@ -48,11 +48,11 @@
                         "date": "5.6.2019",
                         "foods": [
                             "Popcornkanafilee L Avokadomajoneesi",
-                            "Tomaattinen h�rk�ruukku L,G",
+                            "Tomaattinen härkäruukku L,G",
                             "Makkarakimara L,G",
                             "Vietnamilaista Shaking nautaa M,G",
                             "Peking possua L,G",
-                            "T�ytetyt herkkusienet L,G",
+                            "Täytetyt herkkusienet L,G",
                             "Tofua ja paistettua riisinuudelia V,G",
                             "Paistettu bataattipannu V,G",
                             "Sieni-sipulikeitto L,G",
@@ -60,18 +60,18 @@
                             "Vaniljapehmis L,G"
                         ],
                         "pizzas": ["Kebab-Feta-Tomaatti", "Herkkusieni-Punasipuli-Maissi"],
-                        "salads": ["Farmarin maissi-kinkkusalaatti M,G", "Feta-ryp�lesalaatti L,G"]
+                        "salads": ["Farmarin maissi-kinkkusalaatti M,G", "Feta-rypälesalaatti L,G"]
                     },
                     {
                         "day": "Keskiviikko",
                         "date": "5.6.2019",
                         "foods": [
                             "Popcornkanafilee L Avokadomajoneesi",
-                            "Tomaattinen h�rk�ruukku L,G",
+                            "Tomaattinen härkäruukku L,G",
                             "Makkarakimara L,G",
                             "Vietnamilaista Shaking nautaa M,G",
                             "Peking possua L,G",
-                            "T�ytetyt herkkusienet L,G",
+                            "Täytetyt herkkusienet L,G",
                             "Tofua ja paistettua riisinuudelia V,G",
                             "Paistettu bataattipannu V,G",
                             "Sieni-sipulikeitto L,G",
@@ -79,7 +79,7 @@
                             "Vaniljapehmis L,G"
                         ],
                         "pizzas": ["Kebab-Feta-Tomaatti", "Herkkusieni-Punasipuli-Maissi"],
-                        "salads": ["Farmarin maissi-kinkkusalaatti M,G", "Feta-ryp�lesalaatti L,G"]
+                        "salads": ["Farmarin maissi-kinkkusalaatti M,G", "Feta-rypälesalaatti L,G"]
                     },
                     {
                         "day": "Torstai",
@@ -91,7 +91,7 @@
                             "Grillattua possua M,G",
                             "Thai kookoskana M,G",
                             "Mausteiset kasvisvartaat",
-                            "Tofua ja sieni� kiinalaisittain V,G",
+                            "Tofua ja sieniä kiinalaisittain V,G",
                             "Grillatut tomaatit L,G",
                             "Kermainen mustajuurikeitto L,G",
                             "Appelsiinipannukakkua ja hilloa L",
@@ -106,14 +106,14 @@
                         "foods": [
                             "Possun lehtipihvi M,G Maustevoi L,G",
                             "Pesto-uunibroileri L,G",
-                            "It�valtalainen piparjuurinautapata L,G",
-                            "Chili h�rk�� ja paistettua nuudelia L",
+                            "Itävaltalainen piparjuurinautapata L,G",
+                            "Chili härkää ja paistettua nuudelia L",
                             "Lime sinisimpukat M,G",
                             "Kasvis Crepet L",
                             "Tofua tomaattikastikkeessa V,G",
-                            "Kasviskaalik��ryleet L,G Puolukkaa",
+                            "Kasviskaalikääryleet L,G Puolukkaa",
                             "Kasvissosekeitto L,G",
-                            "Hasselp�hkin�-suklaavaahto L,G",
+                            "Hasselpähkinä-suklaavaahto L,G",
                             "Vaniljapehmis L,G"
                         ],
                         "pizzas": ["Kinkku-Salami-Ananas", "Aurajuusto-Paprika-Persikka"],
@@ -176,7 +176,7 @@
                             "Soft ice cream, Vanilla L,G"
                         ],
                         "pizzas": ["Kebab-Feta-Tomato", "Champignon-Red Onion-Corn"],
-                        "salads": ["Farmer�s Corn-Ham Salad M,G", "Feta-Grape Salad L,G"]
+                        "salads": ["Farmer's Corn-Ham Salad M,G", "Feta-Grape Salad L,G"]
                     },
                     {
                         "day": "Wednesday",
@@ -195,7 +195,7 @@
                             "Soft ice cream, Vanilla L,G"
                         ],
                         "pizzas": ["Kebab-Feta-Tomato", "Champignon-Red Onion-Corn"],
-                        "salads": ["Farmer�s Corn-Ham Salad M,G", "Feta-Grape Salad L,G"]
+                        "salads": ["Farmer's Corn-Ham Salad M,G", "Feta-Grape Salad L,G"]
                     },
                     {
                         "day": "Thursday",
@@ -214,7 +214,7 @@
                             "Soft Ice cream, Vanilla L,G"
                         ],
                         "pizzas": ["Salami-Jalapeno-Pineapple", "Mozzarella-Olive-Arugula"],
-                        "salads": ["Ebi�s Chicken Salad L,G", "Green and white bean Salad M,G"]
+                        "salads": ["Ebi's Chicken Salad L,G", "Green and white bean Salad M,G"]
                     },
                     {
                         "day": "Friday",
