@@ -2,7 +2,7 @@
 
 A small app for displaying the lunch menus for most commonly used restaurants within the team I work with.
 
-## Get started
+## Start developing
 
 Install the dependencies
 
@@ -10,7 +10,7 @@ Install the dependencies
 npm install
 ```
 
-Start development server and then navigate to [localhost:8080](http://localhost:8080)
+Start development server. Local development server is found at [localhost:8080](http://localhost:8080)
 
 ```bash
 npm run dev
@@ -18,14 +18,20 @@ npm run dev
 
 ## Deploy to now.sh
 
-Run build
+Get [now.sh](https://zeit.co/now) account and install their [CLI tool](https://zeit.co/download).
+
+Run now to deploy the app to your account
+
 ```bash
-npm run build
+now
 ```
 
-Change to public folder and deploy to production
+To deploy the app with `kumpulalounas` alias run now with production target
 
 ```bash
-cd public
 now --target production
 ```
+
+## Licence
+
+[MIT](https://github.com/mskri/kumpulalounas/blob/master/LICENSE.md)
