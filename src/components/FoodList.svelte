@@ -86,7 +86,7 @@
           <strong>{i18n('salads')}</strong>
         </p>
         <ul>
-          {#each menu.pizzas as food}
+          {#each menu.salads as food}
             <li>{food}</li>
           {/each}
         </ul>
