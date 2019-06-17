@@ -2,5 +2,12 @@
     "name": "kumpulalunch",
     "version": 2,
     "public": false,
-    "alias": "kumpulalounas"
+    "alias": "kumpulalounas",
+    "builds": [
+        {
+            "src": "package.json",
+            "use": "@now/static-build",
+            "config": { "distDir": "public" }
+        }
+    ]
 }
