@@ -8,6 +8,10 @@
             "src": "package.json",
             "use": "@now/static-build",
             "config": { "distDir": "public" }
+        },
+        {
+            "src": "src/functions/restaurants.js",
+            "use": "@now/node"
         }
     ]
 }
