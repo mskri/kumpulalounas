@@ -1,6 +1,4 @@
 <script>
-    export let name;
-
     import { onMount } from "svelte";
     import FoodList from "./components/FoodList.svelte";
     import parameters from "./utils/parameters.js";
