@@ -1,5 +1,5 @@
 {
-    "lastUpdated": "2019-06-24T04:07:44+00:00",
+    "lastUpdated": "2019-11-05T21:48:31+02:00",
     "restaurants": [
         {
             "restaurantName": "Savor",
@@ -7,233 +7,233 @@
                 "fi": [
                     {
                         "day": "Maanantai",
-                        "date": "24.062019",
+                        "date": "04.112019",
                         "foods": [
-                            "Kievinkanaa, jogurttikastike L,G",
-                            "Mets�st�j�n h�rk�ruukku L,G",
-                            "Tonnikala-pastavuoka L",
-                            "Bac King- kanaa L,G",
-                            "Mustapippuripossua L,G",
-                            "Linssipata V,G",
-                            "Tofuwokki V,G",
-                            "Kananmunakastike L,G",
-                            "Feta-porkkanasosekeitto L,G",
-                            "P��ryn�� ja kinuskia L,G",
+                            "Naudan jättilihapullat kermakastikkeessa L",
+                            "Slaavilainen broileripata L,G",
+                            "Uunimakkara L,G",
+                            "Nautawokki M,G",
+                            "Possu-kasvis-sieniwokki L,G",
+                            "Kikherne-kasvispata M,G",
+                            "Ananas-chilitofu V,G",
+                            "Juustopihvi",
+                            "Kermainen metsäsienikeitto L,G",
+                            "Puolukkarahka L,G",
                             "Vaniljapehmis L,G"
                         ],
-                        "pizzas": ["Kinkku-jalopeno-ananas", "Herkkusieni-sipuli-maissi"],
-                        "salads": ["Kebabsalaatti L,G", "Raejuusto-punajuurisalaatti L,G"]
+                        "pizzas": ["Kinkku-tomaatti-sipuli", "Feta-paprika-oliivi"],
+                        "salads": ["Italiansalaatti L", "Tomaatti-mozzarellasalaatti L,G"]
                     },
                     {
                         "day": "Tiistai",
-                        "date": "25.06.2019",
+                        "date": "05.112019",
                         "foods": [
-                            "Hawajinleike L, Chilimajoneesi L,G",
-                            "Burgundinpata M,G",
-                            "Kana-kasviskastike L,G",
-                            "Pekingin nautawokki M,G",
-                            "Hedelm�inen possuwokki M,G",
-                            "Fenkoli-porkkanagratiini L,G",
-                            "Chili-tofua V,G",
-                            "Soijawokki V,G",
-                            "Maissi-kookoskeitto M,G",
-                            "Mustikka-valkosuklaamousse L,G",
+                            "Porsaanleike L, Sinappimajoneesi L,G",
+                            "Intialainen valkosipulikana L,G",
+                            "Liha-kaalilaatikko M,G",
+                            "Härkää hoisinkastikkeessa M,G",
+                            "Tulinen kung po katkarapuwokki M,G",
+                            "Provencen herkkusienet M,G",
+                            "Couscous kasviksia V",
+                            "Cashew tofuwokki V,G",
+                            "Porkkana-inkiväärikeitto",
+                            "Kuningaskiisseli M,G",
                             "Vaniljapehmis L,G"
                         ],
-                        "pizzas": ["Pepperoni-tonnikala", "Feta-paprika-oliivi"],
-                        "salads": ["Kinkku-pastasalaatti L", "Ryp�le-Fetasalaatti L,G"]
+                        "pizzas": ["Tonnikala-jalopeno", "Herkkusieni-maissi-paprika"],
+                        "salads": ["Kinkku-melonisalaatti L,G", "Mexicolainen salaatti M,G"]
                     },
                     {
                         "day": "Keskiviikko",
-                        "date": "26.06.2019",
+                        "date": "06.112019",
                         "foods": [
-                            "Smetana-uunikala L,G",
-                            "Tandoorikanaa L,G",
-                            "Lapinlihakastike L,G",
-                            "Murea possuwokki M,G",
-                            "Paistettua nuudelia kanalla ja katkaravuilla M",
-                            "T�ytetyt paprikat L,G",
-                            "Tofua curry-kookoskastikkeella V,G",
-                            "Sieni-kasvispannu V,G",
-                            "Kasvissosekeitto L,G",
-                            "Mansikkakiisseli M,G",
+                            "Paistettua kuhafilettä, Ruohosipulimajoneesi L,G",
+                            "Kebabstroganoff L,G",
+                            "Porsaan sisäfilettä punaviini-pekonikastikkeessa M,G",
+                            "Hunaja-seesamkana M,G",
+                            "Mausteinen nautawokki & vihanneksia M,G",
+                            "Täytettyjä zuccineja L,G",
+                            "Hedelmäinen tofupannu V",
+                            "Kasviksia hollandaisekastikkeessa L,G",
+                            "Aurajuusto-zuccinikeitto L,G",
+                            "Savorin täytekakku L",
                             "Vaniljapehmis L,G"
                         ],
-                        "pizzas": ["Kana-Feta-Persikka", "Cheddar-jalapeno-sipuli"],
-                        "salads": ["Oliversalaatti L,G", "Meksikolainen salaatti M,G"]
+                        "pizzas": ["Jauheliha-aurajuusto-sipuli", "Feta-parsa"],
+                        "salads": ["Paahtopaistisalaatti M,G", "Raejuustosalaatti L,G"]
                     },
                     {
                         "day": "Keskiviikko",
-                        "date": "26.06.2019",
+                        "date": "06.112019",
                         "foods": [
-                            "Smetana-uunikala L,G",
-                            "Tandoorikanaa L,G",
-                            "Lapinlihakastike L,G",
-                            "Murea possuwokki M,G",
-                            "Paistettua nuudelia kanalla ja katkaravuilla M",
-                            "T�ytetyt paprikat L,G",
-                            "Tofua curry-kookoskastikkeella V,G",
-                            "Sieni-kasvispannu V,G",
-                            "Kasvissosekeitto L,G",
-                            "Mansikkakiisseli M,G",
+                            "Paistettua kuhafilettä, Ruohosipulimajoneesi L,G",
+                            "Kebabstroganoff L,G",
+                            "Porsaan sisäfilettä punaviini-pekonikastikkeessa M,G",
+                            "Hunaja-seesamkana M,G",
+                            "Mausteinen nautawokki & vihanneksia M,G",
+                            "Täytettyjä zuccineja L,G",
+                            "Hedelmäinen tofupannu V",
+                            "Kasviksia hollandaisekastikkeessa L,G",
+                            "Aurajuusto-zuccinikeitto L,G",
+                            "Savorin täytekakku L",
                             "Vaniljapehmis L,G"
                         ],
-                        "pizzas": ["Kana-Feta-Persikka", "Cheddar-jalapeno-sipuli"],
-                        "salads": ["Oliversalaatti L,G", "Meksikolainen salaatti M,G"]
+                        "pizzas": ["Jauheliha-aurajuusto-sipuli", "Feta-parsa"],
+                        "salads": ["Paahtopaistisalaatti M,G", "Raejuustosalaatti L,G"]
                     },
                     {
                         "day": "Torstai",
-                        "date": "27.06.2019",
+                        "date": "07.112019",
                         "foods": [
-                            "Kanaleike M,G, Paprikamajoneesi L,G",
-                            "Hedelm�inen currypossu L,G",
-                            "Kebabkiusaus L,G",
-                            "Karamellikanaa L,G",
-                            "Mausteinen nautawokki ja vihanneksia M,G",
-                            "Vegaaniset nugetit V, Hot-salsa V,G",
-                            "Tofua hapanimel�kastikkeessa V,G",
-                            "Papu- kasvispata L,G",
-                            "Hernekeitto jauhelihalla M,G",
-                            "Pannukakkua ja hilloa L"
+                            "Savorin naudanlihamureke L,G",
+                            "Karjalanpaisti M,G",
+                            "Pyttipannua M,G",
+                            "Rapea pähkinäinen broileri L",
+                            "Nautaa chop suey L,G",
+                            "Minttu-hernerisotto L,G",
+                            "Kiinankaali tofuwokki V,G",
+                            "Kasvis-jalopeno nugetti V,G",
+                            "Savuporo-tuorejuustokeitto L,G",
+                            "Ohukaiset, hilloa L",
+                            "Vaniljapehmis L,G"
                         ],
-                        "pizzas": ["Salami-paprika-Smetana", "Mozzarella-tomaatti-basilika"],
-                        "salads": ["Thaimaalainen kanasalaatti L,G", "Raikas tomaatti-punasipulisalaatti M,G"]
+                        "pizzas": ["Kebab-ananas-vihreä chili", "Persikka-aurajuusto-rucola"],
+                        "salads": ["Kana teriyaki salaatti L,G", "Isoäidin tillikurkut M,G"]
                     },
                     {
                         "day": "Perjantai",
-                        "date": "28.06.2019",
+                        "date": "08.112019",
                         "foods": [
-                            "Floridan leike L, Bearnaisekastike L,G",
-                            "Butter chicken L,G",
-                            "Suikalelihapata M,G",
-                            "Nauta-kasviswokki M,G",
-                            "Tulinen Kung Po- katkarapuwokki L,G",
-                            "Papu-kasviskroketit, Tomaattisalsa V,G",
-                            "Tofua tomaatti-sipulikastikkeessa V,G",
-                            "Soija-luomupasta L ",
-                            "Aasialainen maissi-kanakeitto M,G",
-                            "Passionvaahto L,G",
+                            "Porsaanleike L, Sweetchilimajoneesi L,G",
+                            "Bolognaisekastike L,G",
+                            "Savulohipastavuoka L",
+                            "Hedelmäinen kanawokki L,G",
+                            "Härkä-bambuwokki M,G",
+                            "Chili con härkis V",
+                            "Mustapapu-tofuwokki ",
+                            "Manteligratinoitua bataattia V,G",
+                            "Kasvissosekeitto L,G",
+                            "Omena-kaneli piirakka L",
                             "Vaniljapehmis L,G"
                         ],
-                        "pizzas": ["Kinkku-Salami -Ananas", "Aurinkokuivattu tomaatti- Minimaissi-Sipuli"],
-                        "salads": ["Katkarapusalaatti L,G", "Savor- salaatti L,G"]
+                        "pizzas": ["Kinkku-ananas-salami", "Feta-punajuuri-hunaja"],
+                        "salads": ["Shiraz salaatti L,G", "Savorin salaatti L,G"]
                     }
                 ],
                 "en": [
                     {
                         "day": "Monday",
-                        "date": "24.062019",
+                        "date": "04.112019",
                         "foods": [
-                            "Chicken Kiev, yoghurt sauce L,G",
-                            "Hunters beef stew L,G",
-                            "Tuna-pasta bake L",
-                            "Bac King chicken L,G",
-                            "Black pepper pork L,G",
-                            "Lentil stew V,G",
-                            "Tofu wok V,G",
-                            "Egg sauce L,G",
-                            "Mashed feta-carrot soup L,G ",
-                            "Pear and caramel sauce L,G",
-                            "Soft ice cream, Vanilla L,G"
+                            "Meatballs in creamy sauce L",
+                            "Broiler casserole L,G",
+                            "Oven sausage L,G",
+                            "Meat wok M,G",
+                            "Pork-vegetable-mushroom wok L,G",
+                            "Chickpea-vegetable casserole M,G",
+                            "Pineapple-chili tofu V,G",
+                            "Cheese cutlet",
+                            "Creamy mushroom soup L,G",
+                            "Lingonberry quark L,G",
+                            "Soft icecream, Vanilla L,G"
                         ],
-                        "pizzas": ["Ham-jalapeno-Pineapple", "Champignon-onion-corn"],
-                        "salads": ["Kebab Salad L,G", "Cottage cheese-beetroot Salad L,G"]
+                        "pizzas": ["Ham-tomato-onion", "Feta-pepper-olive"],
+                        "salads": ["Italian salad L", "Tomato mozzarella salad L,G"]
                     },
                     {
                         "day": "Tuesday",
-                        "date": "25.06.2019",
+                        "date": "05.112019",
                         "foods": [
-                            "Hawaiis cutlet L, Chili-mayonnaise L,G",
-                            "Burgund stew M,G",
-                            "Chicken-vegetable sauce L,G",
-                            "Pekingese beef wok M,G",
-                            "Fruity porkwok M,G",
-                            "Fennel- carrot gratin L,G",
-                            "Chili- tofu V,G",
-                            "Soy wok V,G",
-                            "Corn-cocos Soup M,G",
-                            "Blueberry- white chocolate mousse L,G",
-                            "Soft Ice cream, Vanilla L,G"
+                            "Pork cutlet L, Mustard mayonnaise L,G",
+                            "Indian garlic chicken L,G",
+                            "Meat-cabbage casserole M,G",
+                            "Meat in hoisin sauce M,G",
+                            "Spicy kung po shrimp wok M,G",
+                            "Provence champignons M,G",
+                            "Couscous vegetables V",
+                            "Cashew tofu wok V,G",
+                            "Carrot-ginger soup ",
+                            "King kissel M,G",
+                            "Soft icecream, Vanilla L,G"
                         ],
-                        "pizzas": ["Pepperoni- tuna", "Feta-bell pepper-Olive"],
-                        "salads": ["Salmon Salad M,G", "Halloumi Salad L,G"]
+                        "pizzas": ["Tuna-jalopeno", "Champignon-corn-pepper"],
+                        "salads": ["Ham-melon salad L,G", "Mexican salad M,G"]
                     },
                     {
                         "day": "Wednesday",
-                        "date": "26.06.2019",
+                        "date": "06.112019",
                         "foods": [
-                            "Smetana fish L,G",
-                            "Tandor chicken L,G",
-                            "Lapland meat stew L,G",
-                            "Tender pork wok M,G",
-                            "Fried noodle with chicken and shrimps M",
-                            "Filled peppers L,G",
-                            "Tofu with curry-cocos sauce V,G",
-                            "Mushroom-vegetable pan V,G",
-                            "Mashed vegetables Soup L,G",
-                            "Strawberry kissel M,G",
+                            "Baked pike-perch, Chive mayonnaise L,G",
+                            "Kebab stroganoff L,G",
+                            "Pork in red wine-bacon sauce M,G",
+                            "Honey-sesame chicken M,G",
+                            "Spicy meat wok & vegetables M,G",
+                            "Stuffed zucchinis L,G",
+                            "Fruity tofu pan V",
+                            "Vegetables in hollandaise sauce L,G",
+                            "Blue cheese zucchini soup L,G",
+                            "Savor cake L",
                             "Soft ice cream, Vanilla L,G"
                         ],
-                        "pizzas": ["Chicken-feta-peach", "Cheddar-jalapeno-onion"],
-                        "salads": ["Oliver salad L,G", "Mexican Salad L,G"]
+                        "pizzas": ["Mince meat-blue cheese-onion", "Feta-asparagus"],
+                        "salads": ["Roast beef salad M,G", "Cottage cheese salad L,G"]
                     },
                     {
                         "day": "Wednesday",
-                        "date": "26.06.2019",
+                        "date": "06.112019",
                         "foods": [
-                            "Smetana fish L,G",
-                            "Tandor chicken L,G",
-                            "Lapland meat stew L,G",
-                            "Tender pork wok M,G",
-                            "Fried noodle with chicken and shrimps M",
-                            "Filled peppers L,G",
-                            "Tofu with curry-cocos sauce V,G",
-                            "Mushroom-vegetable pan V,G",
-                            "Mashed vegetables Soup L,G",
-                            "Strawberry kissel M,G",
+                            "Baked pike-perch, Chive mayonnaise L,G",
+                            "Kebab stroganoff L,G",
+                            "Pork in red wine-bacon sauce M,G",
+                            "Honey-sesame chicken M,G",
+                            "Spicy meat wok & vegetables M,G",
+                            "Stuffed zucchinis L,G",
+                            "Fruity tofu pan V",
+                            "Vegetables in hollandaise sauce L,G",
+                            "Blue cheese zucchini soup L,G",
+                            "Savor cake L",
                             "Soft ice cream, Vanilla L,G"
                         ],
-                        "pizzas": ["Chicken-feta-peach", "Cheddar-jalapeno-onion"],
-                        "salads": ["Oliver salad L,G", "Mexican Salad L,G"]
+                        "pizzas": ["Mince meat-blue cheese-onion", "Feta-asparagus"],
+                        "salads": ["Roast beef salad M,G", "Cottage cheese salad L,G"]
                     },
                     {
                         "day": "Thursday",
-                        "date": "27.06.2019",
+                        "date": "07.112019",
                         "foods": [
-                            "Chicken cutlet M,G, Pepper-mayonnaise L,G",
-                            "Fruity curry pork L,G",
-                            "Kebab stew L,G",
-                            "Caramel chicken L,G",
-                            "Spicy beef wok and vegetables M,G",
-                            "Vegan nuggets V, Hot-salsa V,G",
-                            "Tofu in sweet and sour sauce V,G",
-                            "Bean-vegetable stew L,G",
-                            "Pea soup with minced meat M,G",
-                            "Pancake and jam L",
-                            "Soft Ice cream, Vanilla L,G",
-                            "PIZZA:"
+                            "Savor meatloaf L,G",
+                            "Carelian stew M,G",
+                            "Potatoes and sausage M,G ",
+                            "Crispy chicken with nuts L",
+                            "Meat chop suey L,G",
+                            "Mint-pea risotto L,G",
+                            "Chinese cabbage tofu wok V,G",
+                            "Vegetable-jalopeno nuggets V,G",
+                            "Smoked reindeer-creamy cheese soup L,G",
+                            "Pancakes, jam L",
+                            "Soft ice cream, Vanilla L,G"
                         ],
-                        "pizzas": ["Salami-bell pepper-smetana", "Mozzarella- tomato- basil"],
-                        "salads": ["Thai chicken Salad L,G", "Fresh tomato-red onion Salad M,G"]
+                        "pizzas": ["Kebab-pineapple-green chili", "Peach-blue cheese-rucola"],
+                        "salads": ["Chicken teriyaki salad L,G", "Grandmothers dill cucumber M,G"]
                     },
                     {
                         "day": "Friday",
-                        "date": "28.06.2019",
+                        "date": "08.112019",
                         "foods": [
-                            "Florida�s cutlet L, B�arnaise sauce L,G",
-                            "Butter chicken L,G",
-                            "Meat stew M,G",
-                            "Beef-vegetable wok M,G",
-                            "Hot Kung Po- shrimp wok L,G",
-                            "Bean-vegetable croquettes, tomato salsa V,G",
-                            "Tofu in tomato-onion sauce V,G",
-                            "Soy-organic pasta L",
-                            "Asian corn-chicken soup M,G",
-                            "Passion foam L,G",
+                            "Pork cutlet L, Sweetchili mayonnaise L,G",
+                            "Bolognaise sauce L,G",
+                            "Smoked salmon pasta casserole L",
+                            "Fruity chicken wok L,G",
+                            "Meat-bambu wok ",
+                            "Chili con härkis V",
+                            "Black bean-tofu wok ",
+                            "Almond gratinated sweet potato V,G",
+                            "Creamy vegetable soup L,G",
+                            "Apple-cinnamon pie L",
                             "Soft ice cream, Vanilla L,G"
                         ],
-                        "pizzas": ["Ham-salami-pineapple ", "Sun dried tomato-mini corn- onion"],
-                        "salads": ["Shrimp salad L,G", "Savor Salad L,G"]
+                        "pizzas": ["Ham-pineapple-salami", "Feta-beetroot-honey"],
+                        "salads": ["Shiraz salad L,G", "Savor salad L,G"]
                     }
                 ]
             }
@@ -244,69 +244,169 @@
                 "fi": [
                     {
                         "day": "Maanantai",
-                        "date": "24.6.2019",
+                        "date": "4.11.2019",
                         "foods": [
-                            "Bataatti-porkkanasosekeittoa kookoskermalla (L+G+VE)",
-                            "Kinkku-juustotäytteinen kalkkunaleike (VL) sitruunalohko (M+G+VE) yrttiperunoita (M+G+VE)",
-                            "Jauhelihabolognesekastiketta (L+G) Rummon spagettia (L)",
-                            "Aurajuustolla gratinoituja herkkusieniä ja vihreitä papuja (VL+G)",
-                            "Wokattuja kasviksia ja Härkistä (L+G+VE)",
+                            "Nakkikeitto (L+G)",
+                            "Paistettua merilohta (M+G) sitruuna-kapriskastike (L+G) tilliperuna (M+G+VE)",
+                            "Tee-se-itse naudan jauhelihatortilla (M+G) majoneesi, tomaatti, jalapeno,marinoitu sipuli",
+                            "Vegaaninen makaronilaatikko (M+G+VE)",
+                            "Juustolla gratinoidut kukka-ja parsakaalit (L+G)",
                             "Broileri-ananaspizza (VL)",
-                            "Vadelmakakkupala (L+G)"
+                            "Puolukkarahka (L+G)"
                         ]
                     },
                     {
                         "day": "Tiistai",
-                        "date": "25.6.2019",
+                        "date": "5.11.2019",
                         "foods": [
-                            "Borschkeitto kasviksista, (M+G+VE) smetanaa (L+G)",
-                            "Yön yli haudutettua porsaaanpaistia balsamico-kirsikkaglaseerauksella (L+G)",
-                            "paahtoperunoita (M+G+VE)",
-                            "Pariloitua turskaseläkettä “blackened” (L+G) valkosipulimajoneesia (L+G+VE+VS)",
-                            "Chili sin carne soijarouheesta ja kasviksista (L+G+VE)",
-                            "Höyrytettyja kasviksia (M+G+VE) hollandaisekastiketta (VL+G)",
-                            "Sweetchili-jauhelihapizza sipulilla (VL+VS)",
-                            "Vaniljainen persikka-tuorejuustomousse (L+G)"
+                            "Vihreä linssikeitto thaimaalaisittain (M+G+VE)",
+                            "Porsaan grillifile (M+G) Dijon-sinappikastike (L+G) paprikaperunat (M+G+VE)",
+                            "Paneroitua broileria (M) korianterisalsa (M+G+VE)",
+                            "Paahdettua bataattia ja belugalinssejä rakuunaöljyllä (M+G+VE)",
+                            "Punajuuri-sieniohratto (L+G)",
+                            "Margherita-pizza (VL)",
+                            "Factoryn herkullinen jäätelöbaari (VL+G)"
                         ]
                     },
                     {
                         "day": "Keskiviikko",
-                        "date": "26.6.2019",
+                        "date": "6.11.2019",
                         "foods": [
-                            "Ranskalaista kermaista kalakeittoa (L+G)",
-                            "Valkosipuli-yrttivoissa paistettua broileria (L+G+VS) maissiriisiä (M+G+VE)",
-                            "Kebabkiusausta (L+G)",
-                            "Rapeat itsetehdyt punajuuripihvit (L+G+VE) kirveli-kermaviilikastiketta (L+G)",
-                            "Kasvisratatouillea ja tofua (M+G+VE)",
-                            "Kirsikkatomaatti-artisokka-parsapizza (VL)",
-                            "Kaura-puolukkahyve (L)"
+                            "Kainuun lohikeitto (L+G)",
+                            "Murea naudan entrecote balsamicokastikkeessa (M+G+VS)",
+                            "Paahdettua lohkoperunaa (M+G+VE)",
+                            "Broileria ja ananasta curry-kermakastikkeessa (L+G)",
+                            "Quinoa-riisi (M+G+VE)",
+                            "Härkis-kaalilaatikko (M+G+VE)",
+                            "Kasviswokki iduilla ja paahdetuilla seesaminsiemenillä (M+G+VE)",
+                            "Pekoni-punasipulipizza (VL)",
+                            "Mustikkakukko (M+VE) vaniljavaahto (L+G)"
                         ]
                     },
                     {
                         "day": "Torstai",
-                        "date": "27.6.2019",
+                        "date": "7.11.2019",
                         "foods": [
-                            "Palvikinkku-hernekeittoa (M+G)",
-                            "XL kebab-lihapullia yrtti-tomaattikastikkeessa (VL+G) perunamuusia (L+G)",
-                            "Nakkistroganoff (VL+G)",
-                            "Kermainen katkarapu-kasvispasta (L)",
-                            "Välimeren soijasuikale-vihanneshöystö (M+G+VE)",
-                            "Salami-paprikapizza (VL)",
-                            "Letut (L) talon mansikkahillo (M+G) jäätelö (L+G) kermavaahto (L+G)",
+                            "Hernekeittoa palvikinkulla(M+G)",
+                            "Kebab-lihapullat turkkilaisessa tomaattikastikkeessa (M+G+VS) riisi (M+G+VE)",
+                            "Haudutettua porsaan potkaa tummassa rosmariinikastikkeessa (M+G)",
+                            "Ranskanperunat (M+G+VE)",
+                            "Vegaaninen fenkoli-soijavuoka (M+G+VE)",
+                            "Kasvisröstipihvit (M+G+VE) mintturaita (L+G)",
+                            "Broileri-valkohomejuusto-pizza (VL)",
+                            "Lettuja (L) talon mansikkahillo (M+G) jäätelöä (L+G) vaniljavaahtoa (L+G)",
                             "Huom. Keittiöltä tilattavissa erikseen: Vegaaniset ja gluteenittomat letut (M+G+VE)"
                         ]
                     },
                     {
                         "day": "Perjantai",
-                        "date": "28.6.2019",
+                        "date": "8.11.2019",
                         "foods": [
-                            "Vuohenjuustolla pyöristettyä tomaattikeittoa (L+G)",
-                            "Haudutettua porsaanfileetä dijonsinappikastikkeessa (L+G) lankkuperunoita (L+G+VE)",
-                            "Paahdettua broileria, tuoreananaskastiketta (L+G)",
-                            "Yrttiöljyssä paistettua kasvispyttipannua (M+G+VE)",
-                            "Meksikolaiset Härkis-kasvistacot (L+G+VE+VS)",
-                            "Katkarapu-fetajuustopizza (VL)",
-                            "Maranellon jäätelöbaari alla Italia (VL+G)"
+                            "Perinteinen jauhelihakeitto (M+G)",
+                            "Naudanliha lehtari (M+G) talon maustevoi (L+G) valkosipuliperunaa (L+G)",
+                            "Paneroitua kampelaa (M) kevätsipuli-kermaviilikastike (L+G)",
+                            "Parsakaali-tofupiirakka (L+G)",
+                            "Kasvis-couscouspaistos herneenversoilla ja pähkinöillä (M+G+VE)",
+                            "Kebab-valkosipulipizza (VL+VS)",
+                            "Factoryn double trouble chocolate cake (VL+G)"
+                        ]
+                    }
+                ],
+                "en": []
+            }
+        },
+        {
+            "restaurantName": "Ravintola 911",
+            "menus": {
+                "fi": [
+                    {
+                        "day": "Maanantai",
+                        "date": "",
+                        "foods": [
+                            "Siskonmakkarakeitto M+G",
+                            "Mozzarella-kurpitsapihvit L+G",
+                            "Pariloitu kirjolohi M+G, tartarkastike, sitruuna",
+                            "Jättilihapullat whiskey BBQ M+G",
+                            "Uunimakkara L+G",
+                            "Pestobroilerifileetä L+G",
+                            "Pippuriporsas L+G",
+                            "1-Pizza, naudanliha, sipuli, peperone, vs L",
+                            "2-Pizza, kinkku, tomaatti, ananas L",
+                            "3-Kasvispizza sipuli, kuiv. tom., chili L",
+                            "4-Pizza, kana, aura, punasipuli, vs L",
+                            "Jälkiruoka: Kinuskikakku L"
+                        ]
+                    },
+                    {
+                        "day": "Tiistai",
+                        "date": "",
+                        "foods": [
+                            "Lohikeitto M+G",
+                            "Falafel, chilikastike L+G",
+                            "Paistetut muikut, sipuli, tilli, sitruuna M",
+                            "Pyttipannu M, kananmuna",
+                            "Wieninleike, sitruuna, anjovis, kapris M",
+                            "Paistettua broileria, inkivääri, punasipuli M+G",
+                            "Metsästäjänpihvit L+G naudanliha",
+                            "1-Pizza, kebab, ananas, punasipuli, vs L",
+                            "2-Pizza, kana, sieni, pekoni L",
+                            "3-Kasvispizza, feta, paprika, artisokka L",
+                            "4-Pizza, salami, purjo, chili, vs L",
+                            "Jälkiruoka: Mangojogurttia VL+G, kaurakeksit L"
+                        ]
+                    },
+                    {
+                        "day": "Keskiviikko",
+                        "date": "",
+                        "foods": [
+                            "Kanakeitto L+G",
+                            "Parilamunakas, tomaatti, sipuli, juusto L+G",
+                            "Paistettu kuha M, kermaviilikastike, sitruuna",
+                            "Calzone, kebab, kinkku, juusto, sipuli, chili L",
+                            "Friteerattua broileria M, erillinen hapanimeläkastike",
+                            "Häränlihakäristys M+G",
+                            "Lihapullat perinteinen ruskeakastike L",
+                            "1-Pizza, kebab, paprika, aurajuusto, vs L",
+                            "2-Pizza, tonnikala, tomaatti, anjovis L",
+                            "3-Kasvispizza, artisokka, oliivi, persikka L",
+                            "4-Pizza, kinkku, sipuli, peperone, vs L",
+                            "Jälkiruoka: Mansikkajogurttia VL+G, kääretorttu L"
+                        ]
+                    },
+                    {
+                        "day": "Torstai",
+                        "date": "",
+                        "foods": [
+                            "Hernekeitto M+G",
+                            "Kukkakaalivuoka L+G",
+                            "Katkarapukampela M, chilimajon., sitruuna",
+                            "Lasagne L",
+                            "Täytetty lihamureke M+G",
+                            "Broilerileike M, erillinen bearnaisekastike L",
+                            "Porsaan sipulipihvi M+G, exotic currymajoneesi",
+                            "1-Pizza, kana, ananas, punasipuli vs L",
+                            "2-Pizza, kinkku, tomaatti, mozzarellajuusto L",
+                            "3-Kasvispizza, kurpitsa, paprika, bbq L",
+                            "4-Pizza, kebab, sieni, pekoni, vs L",
+                            "Omatekoiset ohukaiset, hillo, kermavaahto L"
+                        ]
+                    },
+                    {
+                        "day": "Perjantai",
+                        "date": "",
+                        "foods": [
+                            "Tomaattikeitto L+G",
+                            "Pinaattiohukaiset L, puolukka",
+                            "Paistetut silakat M, sienikastike, (sipuli- sitruuna)",
+                            "Sveitsinleike, kinkku- juustolla täyt. L",
+                            "Parilapihvit M+G, erill. tummapippurikast. L+G",
+                            "Grillattua broileria M+G, rosmariini-vs",
+                            "Lammasta turkkilaiseen tapaan M+G tulinen",
+                            "1-Pizza, naudanliha, sipuli, pekoni vs L",
+                            "2-Pizza, tonnikala, katkarapu, anjovis L",
+                            "3-Kasvispizza, mozzarella, tomaatti, parsa L",
+                            "4-Pizza, kana, ananas, aurajuusto vs L",
+                            "Jälkiruoka: kanelipulla L, kiisseli L+G"
                         ]
                     }
                 ],
@@ -319,122 +419,124 @@
                 "fi": [
                     {
                         "day": "Maanantai",
-                        "date": "24.6.2019",
+                        "date": "4.11.2019",
                         "foods": [
-                            "Naudan lehtipihvi, vuohenjuustokastiketta, grillattua tomaattia ja talon lohkoperunoita (L+G+VS) 11.00€",
-                            "Naudan jauhelihaburrito, salsaa, cheddarkastiketta ja raikasta salaattia (VL+VS) 10.00€",
-                            "Bistron Jambalaya kanasta, kasviksista ja ravuista (L+G+VS) 9.50€",
-                            "Vegaaninen kasvisnuudeliwokki, seesaminsiemenillä marinoitua tomaattia (L+VS) 9,20€",
-                            "Täyteläinen mustajuurikeitto (L+G) & salaattipöytä 9,00€",
-                            "Makea porkkanaherkku arabialaisittain (L+G+Sis.pähkinä)"
+                            "Lohta Toscanalaiseen tapaan, yrttiperunaa ja sitruunaa (L+G+VS) 11€",
+                            "Metsästäjänleipä porsaan ulkofileestä, paistettua perunaa ja uunitomaattia (L) 10.50€",
+                            "Butter chicken & Basmatiriisiä (L+G+VS) 9.50€",
+                            "Vegaanista sieni-härkispyttipannua, kirveliä ja pinaattia (M+G+VE+VS) 9,50€",
+                            "Tomaatti-basilikakeittoa & salaattipöytä (M+G+VS) 9,00€",
+                            "Mansikka- vadelmarahkaa (L+G)"
                         ]
                     },
                     {
                         "day": "Tiistai",
-                        "date": "25.6.2019",
+                        "date": "5.11.2019",
                         "foods": [
-                            "Aurajuustolla täytettyä metsäkyyhkyn rintaa, juurespyreetä, paistettuja herkkusieniä ja mustaherukkakastiketta (L+G) 11.00€",
-                            "Tomaattinen broilerlasagne, cheddarkastiketta ja sitrusrucolaa (L+VS) 10.00€",
-                            "Kaalikääryleet, perunamuhennosta ja puolukkaa (L+G+VS) 9.50€",
-                            "Kasvismoussaka (L+G+VS) 9,20€",
-                            "Vasikanlihalla höystettyä sipulikeittoa (L+G) & salaattipöytä 9,00€",
-                            "Kinuskilla maustettua karpalorahkaa (L+G)"
+                            "Rapeita broilerin sisäfileitä, lohkoperunoita, currydippiä ja tomaattisipulisalaattia (M) 11.00€",
+                            "Jauhelihataco, tomaattisalsaa, guagamolea, salaattia ja cheddarkastiketta (L+G+VS) 10.50€",
+                            "Savulohipasta, kapris-tomaattisalsa, parmesaania ja tuoretta tilliä (L+VS) 9,50€",
+                            "Vegaaninen pasta bolognese, aurinkokuivattua tomaattia ja tuoretta basilikaa (M+VE+VS) 9,50€",
+                            "Koskenlaskijalla aateloitua kukkakaalikeittoa (L+G) & salaattipöytä 9,00€",
+                            "Bistron jäätelöbaari, kinuskia, sitruskastiketta, mansikkahilloa, vaahtokarkkeja, strösseleitä (G+sis. pähkinää) ja keksimurua"
                         ]
                     },
                     {
                         "day": "Keskiviikko",
-                        "date": "26.6.2019",
+                        "date": "6.11.2019",
                         "foods": [
-                            "Bistron kebablihapullat, piparjuuripaahdettua perunaa ja pippurikastiketta (L+G+VS) 10.50€",
-                            "Tillillä ja limellä täytettyä punakampelafilettä, tartarkastiketta ja perunamuhennosta (L+G+VS) 10.00€",
-                            "Nakkistroganoff ja perunamuhennosta (L+G+VS) 9.50€",
-                            "Meksikolaiset kasvistacot (M+G+VS+VE) 9,20€",
-                            "Tuorejuustolla maustettu kesäkurpitsakeitto (L+G) & salaattipöytä 9,00€",
-                            "Vadelmakakku (VL)"
+                            "Pinaatilla ja fetajuustolla täytettyä punakampelaa, perunamuhennosta ja sitrus-remouladekastiketta (L) 11.00€",
+                            "Yön yli haudutettua possunpotkaa, ryytisinappi-perunamuhennosta, hapankaalia ja viherpippurikastiketta (L+G+VS) 10.50€",
+                            "Burgundinpataa, perunamuhennosta (L+G+VS) ja paahdettua sipulia 9.50€",
+                            "Kookos-tofu curry, kurkumariisiä ja tuoretta minttua (M+G+VE+VS)",
+                            "Makkarakeitto & salaattipöytä a 9,00€",
+                            "Salmiakki-appelsiinimousse (L)"
                         ]
                     },
                     {
                         "day": "Torstai",
-                        "date": "27.6.2019",
+                        "date": "7.11.2019",
                         "foods": [
-                            "Harissa-paahdettua lohta, varhaisperunaa, paahdettua kukkakaalia ja kirsikkatomaattikastiketta (L+G+VS) 11.00€",
-                            "Grillattua porsaanfilettä, persiljavoissa paahdettua varhaisperunaa ja bearnaisekastiketta (L+G+VS) 10.00€",
-                            "Pasta Carbonara & parmesaania (L+VS) 9,50€",
-                            "Falafelpihvit, paahdettuja kasviksia ja yrttistä tomaattiriisiä ja tuorekurkkusalsaa (L+G+M+VS) 9,20€",
+                            "Kebab lihapullia, paahdettua perunaa ja juureksia, tomaattikastiketta ja piparjuuri-tzatzikia (L+G+VS) 11.00€",
+                            "Savulohi smörrebröd, raikasta salaattia (L) 10.50€",
+                            "Kermaista sienirisottoa, piparjuurivoissa haudutettua purjoa ja parmesaania (L+G+VS) 9.50€",
+                            "Melanzane alla parmigiana (VL+G+VS) 9,50€",
                             "Hernekeitto ja hakattu sipuli (M+G) & salaattipöytä 9,00€",
                             "Bistron letut (L) talon mansikkahillo (M+G) vaniljajäätelöä (L+G)"
                         ]
                     },
                     {
                         "day": "Perjantai",
-                        "date": "28.6.2019",
+                        "date": "8.11.2019",
                         "foods": [
-                            "Bistron burger, chilimajoneesia, salaattia, tomaattia, maustekurkkua ja ranskalaisia (L+VS) 11.00€",
-                            "Savulohipastaa, parmesaania ja kirsikkatomaatteja (L) 10.00€",
-                            "Bistron vegan burger, vegaanista chili-majoneesia, grillattua tofua, tomaattia, salaattia ja paprikaa (M+VE) 9,50€",
-                            "Lihakeitto (M+G) & salaattipöytä 9,00€",
-                            "Raparperi-vispipuuroa (L)"
+                            "Naudan lehtari, bearnaisekastike, paprikaperunat ja paahdettuja kasviksia (L+G+VS) 11.00€",
+                            "Burger rotukarjan pihvillä (Medium) savu-BBQ- majoneesia, pekonia, cheddarjuustoa ja ranskalaisia (VL+VS) 10.50€",
+                            "Thaimaalaista nuudeli-kanawokkia, ituja ja paahdettua sipulia (L+VS) 9.50€",
+                            "Kasvisburger, chilimajoneesia, falafelpihvi, salaattia, grillattua ananasta, kesäkurpitsaa ja paprikaa, ranskalaisia (L+VS) 9,50€",
+                            "Samettista savu-valkosipulikeittoa (L+G) & salaattipöytä 9,00€",
+                            "Vaniljatäytteiset tuulihatut (L+G)"
                         ]
                     }
                 ],
                 "en": [
                     {
                         "day": "Monday",
-                        "date": "24.6.2019",
+                        "date": "4.11.2019",
                         "foods": [
-                            "Beef minute steak, goat cheese sauce, grilled tomatoes and the house potato wedges (L+G+VS) 11.00€",
-                            "Minced beef burrito, salsa, cheddar sauce and refreshing salad (VL+VS) 10.00€",
-                            "Bistro’s Jambalaya, with chicken, vegetables and prawns (L+G+VS) 9.50€",
-                            "Vegan vegetable noodle wok, sesame seeds marinated tomatoes (L+VS) 9,20€",
-                            "Full-bodied black salsify soup (L+G) & salad table 9,00€",
-                            "Sweet carrot delicacy in arabic style (L+G+incl. nuts)"
+                            "Tuscan salmon, herb potatoes and lemon (L+G+VS) 11€",
+                            "Hunters steak sandwich from pork sirloin, fried potatoes and oven roasted tomatoes (L) 10.50€",
+                            "Butter chicken & Basmati rice (L+G+VS) 9.50€",
+                            "Vegan mushroom and Härkis pyttipannu fry-up, with chervil and spinach (M+G+VE+VS) 9,50€",
+                            "Tomato and basil soup and salad table (M+G+VS) 9,00€",
+                            "Strawberry and raspberry quark (L+G)"
                         ]
                     },
                     {
                         "day": "Tuesday",
-                        "date": "25.6.2019",
+                        "date": "5.11.2019",
                         "foods": [
-                            "Blue cheese filled wild pigeon breast, root vegetable puree, fried mushrooms and black currant sauce (L+G) 11.00€",
-                            "Chicken lasagne with tomatoes, cheddar sauce and lemon arugula (L+VS) 10.00€",
-                            "Cabbage rolls, mashed potatoes and lingonberry (L+G+VS) 9.50€",
-                            "Vegetable moussaka (L+G+VS) 9,20€",
-                            "Veal meat and onion soup (L+G) & salad table 9,00€",
-                            "Cranberry quark with caramel (L+G)"
+                            "Crispy chicken tenderloin, potato wedges, curry dip and tomato and onion salad (M) 11.00€",
+                            "Minced meat taco, tomato salsa, guacamole, salad and cheddar sauce (L+G+VS) 10.50€",
+                            "Smoked salmon pasta, kapris and tomato salsa, parmesan cheese and fresh dill (L+VS) 9,50€",
+                            "Vegan pasta bolognese, sundried tomato and fresh basil (M+VE+VS) 9,50€",
+                            "Cauliflower soup with Koskenlaskija spread cheese (L+G) & salad table 9,00€",
+                            "Bistro’s ice cream bar, caramel, citrus sauce, strawberry jam, marshmallows, sprinkles (G+incl. nuts) and cookie crumbles"
                         ]
                     },
                     {
                         "day": "Wednesday",
-                        "date": "26.6.2019",
+                        "date": "6.11.2019",
                         "foods": [
-                            "Bistro’s kebab meatballs, roasted potatoes with horseradish and pepper sauce (L+G+VS) 10.50€",
-                            "Dill and lime filled flounder fillets, tartar sauce and mashed potatoes (L+G+VS) 10.00€",
-                            "Frankfurter stroganoff and mashed potatoes (L+G+VS) 9.50€",
-                            "Mexican vegetable tacos (M+G+VS+VE) 9,20€",
-                            "Pumpkin soup with fresh cheese (L+G) & salad table 9,00€",
-                            "Raspberry cake (VL)"
+                            "Spinach and feta cheese stuffed rose fish, mashed potatoes and citrus remoulade sauce (L) 11.00€",
+                            "Slow cooked pork shank, grain mustard and potato mash, sauerkraut and green pepper sauce (L+G+VS) 10.50€",
+                            "Beef bourguignon, mashed potatoes (L+G+VS) and roasted onion 9.50€",
+                            "Coconut and tofu curry, turmeric rice and fresh mint (M+G+VE+VS)",
+                            "Sausage soup and salad table 9,00€",
+                            "Black liquorice and orange mousse"
                         ]
                     },
                     {
                         "day": "Thursday",
-                        "date": "27.6.2019",
+                        "date": "7.11.2019",
                         "foods": [
-                            "Roasted salmon with harissa, early potatoes, roasted cauliflower and cherry tomato sauce (L+G+VS) 11.00€",
-                            "Grilled pork fillets, roasted early potatoes with parsley butter and bearnaise sauce (L+G+VS) 10.00€",
-                            "Pasta Carbonara & parmesan (L+VS) 9,50€",
-                            "Falafel patties, roasted vegetables and tomato rice with herbs and fresh cucumber salsa (L+G+M+VS) 9,20€",
+                            "Kebab meatballs, roasted potatoes and root vegetables, tomato sauce and horseradish tzatziki (L+G+VS) 11.00€",
+                            "Smoked salmon smörrebröd, fresh salad (L) 10.50€",
+                            "Creamy mushroom risotto, horseradish simmered leek and parmesan cheese (L+G+VS) 9.50€",
+                            "Melanzane alla parmigiana (VL+G+VS) 9,50€",
                             "Pea soup and chopped onion (M+G) & salad table 9,00€",
-                            "Bistro’s pan cakes (L) the house strawberry jam (M+G) vanilla ice cream (L+G)"
+                            "Bistro’s pancakes (L) the house strawberry jam (M+G) vanilla ice cream (L+G)"
                         ]
                     },
                     {
                         "day": "Friday",
-                        "date": "28.6.2019",
+                        "date": "8.11.2019",
                         "foods": [
-                            "Bistro’s burger, chili mayo, salad, tomato, pickled cucumber and french fries (L+VS) 11.00€",
-                            "Smoked salmon pasta, parmesan and cherry tomatoes (L) 10.00€",
-                            "Bistro’s Veggie burger, vegan chili mayo, grilled tofu, tomatoes, salad and sweet peppers (M+VE) 9,50€",
-                            "Meat soup (M+G) & salad table 9,00€",
-                            "Rhubarb creamy porridge (L)"
+                            "Beef Lehtari minute steak, bearnaise sauce, paprika potatoes and roasted vegetables (L+G+VS) 11.00€",
+                            "Premium beef burger (Medium) smokey BBQ-mayonnaise, bacon, cheddar cheese and french fries (VL+VS) 10.50€",
+                            "Thai noodle and chicken wok, sprouts and roasted onion (L+VS) 9.50€",
+                            "Veggie burger, chili mayonnaise, falafel patty, salad, grilled pineapple, zucchini and paprika, french fries (L+VS) 9,50€",
+                            "Velvety smoked garlic soup (L+G) & salad table 9,00€",
+                            "Vanilla cream puffs (L+G)"
                         ]
                     }
                 ]

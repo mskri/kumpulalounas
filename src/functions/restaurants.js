@@ -70,6 +70,86 @@ async function getFactoryBistro() {
     return getFactory("Bistro Factory", "https://ravintolafactory.com/lounasravintolat/ravintolat/bistro/");
 }
 
+async function getRavintola911() {
+    const options = {
+        uri: "http://www.ravintola911.fi/kumpulantien-lounaslista/",
+        transform: function(body) {
+            return cheerio.load(body, { normalizeWhitespace: true });
+        }
+    };
+
+    return rp(options)
+        .then($ => {
+            const menuFi = [];
+            const menuEn = [];
+            let index = 0;
+
+            $("#inner-content")
+                .children("p")
+                .map((i, e) => {
+                    const txt = $(e).text();
+
+                    if (txt.toLowerCase().indexOf("maanantai") > -1) {
+                        index = 0;
+                        menuFi[index] = {
+                            day: "Maanantai",
+                            date: "",
+                            foods: []
+                        };
+                    }
+
+                    if (txt.toLowerCase().indexOf("tiistai") > -1) {
+                        index = 1;
+                        menuFi[index] = {
+                            day: "Tiistai",
+                            date: "",
+                            foods: []
+                        };
+                    }
+
+                    if (txt.toLowerCase().indexOf("keskiviikko") > -1) {
+                        index = 2;
+                        menuFi[index] = {
+                            day: "Keskiviikko",
+                            date: "",
+                            foods: []
+                        };
+                    }
+
+                    if (txt.toLowerCase().indexOf("torstai") > -1) {
+                        index = 3;
+                        menuFi[index] = {
+                            day: "Torstai",
+                            date: "",
+                            foods: []
+                        };
+                    }
+
+                    if (txt.toLowerCase().indexOf("perjantai") > -1) {
+                        index = 4;
+                        menuFi[index] = {
+                            day: "Perjantai",
+                            date: "",
+                            foods: []
+                        };
+                    }
+
+                    menuFi[index].foods.push(txt);
+                });
+
+            // Removes the first element which is the day name + date
+            menuFi[0].foods.shift();
+            menuFi[1].foods.shift();
+            menuFi[2].foods.shift();
+            menuFi[3].foods.shift();
+            menuFi[4].foods.shift();
+            menuFi[4].foods.splice(menuFi[4].foods.length - 5, 5); // Remove the pricing info
+
+            return { restaurantName: "Ravintola 911", menus: { fi: menuFi, en: menuEn } };
+        })
+        .catch(e => console.error(e));
+}
+
 async function getFactoryVallila() {
     return getFactory("Factory", "https://ravintolafactory.com/lounasravintolat/ravintolat/helsinki-vallila/");
 }
@@ -143,10 +223,11 @@ async function fetchMenus() {
     const savor = getSavor();
     const bistro = getFactoryBistro();
     const vallila = getFactoryVallila();
+    const ravintola911 = getRavintola911();
 
     var lastUpdated = format(new Date(), "YYYY-MM-DD[T]HH:mm:ssZ");
 
-    return await Promise.all([savor, vallila, bistro]).then(restaurants => {
+    return await Promise.all([savor, vallila, ravintola911, bistro]).then(restaurants => {
         return {
             lastUpdated,
             restaurants
@@ -163,7 +244,15 @@ async function storeData() {
     });
 }
 
+async function logData() {
+    const data = await fetchMenus();
+    console.log(JSON.stringify(data));
+}
+
 module.exports = async (req, res) => {
     const data = await fetchMenus();
+    console.log(data);
     res.json(data);
 };
+
+// logData();

@@ -80,6 +80,14 @@
         flex-grow: 1;
     }
 
+    .weekdays {
+        margin: 16px;
+    }
+
+    .weekdays a {
+        margin-right: 16px;
+    }
+
     .switch {
         font-size: 1.2rem;
         opacity: 0.65;
@@ -113,14 +121,21 @@
 <main class="container">
     <header>
         <h1>
-             {i18n('title')}
+            {i18n('title')}
             <u>{day}</u>
         </h1>
         <label class="switch">
-             {i18n('theme_mode')}
+            {i18n('theme_mode')}
             <input id="themeSwitch" type="checkbox" on:change={themeChange} />
         </label>
     </header>
+    <div class="weekdays">
+        <a href="?day=maanantai">{i18n('monday')}</a>
+        <a href="?day=tiistai">{i18n('tuesday')}</a>
+        <a href="?day=keskiviikko">{i18n('wednesday')}</a>
+        <a href="?day=torstai">{i18n('thursday')}</a>
+        <a href="?day=perjantai">{i18n('friday')}</a>
+    </div>
     {#if todaysMenus.length === 0}
         <p>{i18n('loading')}</p>
     {:else}
@@ -134,5 +149,5 @@
             {/each}
         </section>
     {/if}
-    <footer>{i18n('last_updated') + ' ' + lastUpdated} </footer>
+    <footer>{i18n('last_updated') + ' ' + lastUpdated}</footer>
 </main>

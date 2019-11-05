@@ -10,7 +10,12 @@ const strings = {
     salads: ["Salaatit", "Salads"],
     no_menu_found: ["Ruokalistaa ei löytynyt.", "Menu was not found."],
     last_updated: ["Tiedot päivitetty", "Data updated"],
-    theme_mode: ["Vaalea teema", "Light mode"]
+    theme_mode: ["Vaalea teema", "Light mode"],
+    monday: ["Maanantai", "Monday"],
+    tuesday: ["Tiistai", "Tuesday"],
+    wednesday: ["Keskiviikko", "Wednesday"],
+    thursday: ["Torstai", "Thursday"],
+    friday: ["Perjantai", "Friday"]
 };
 
 const i18n = key => {
