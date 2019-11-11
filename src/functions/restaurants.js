@@ -1,6 +1,7 @@
 const cheerio = require("cheerio");
 const rp = require("request-promise");
-var fs = require("fs");
+const fs = require("fs");
+const path = require("path");
 const format = require("date-fns/format");
 
 const finDayNames = ["maanantai", "tiistai", "keskiviikko", "torstai", "perjantai"];
@@ -16,52 +17,50 @@ async function getSavor() {
     return rp(options)
         .then($ => {
             const daySelectors = ["#ma", "#ti", "#ke", "#ke", "#to", "#pe"];
-            const menuFi = [];
-            const menuEn = [];
+            const menu = [];
 
             daySelectors.forEach(d => {
-                $(`${d} .4u`).each((_, element) => {
-                    let secondaryFoods = $(element).find("h4 + p");
+                const element = $(`${d} .4u`).first();
+                let secondaryFoods = $(element).find("h4 + p");
 
-                    const title = $(element)
-                        .find("h3")
-                        .text()
-                        .split(" ");
+                const title = $(element)
+                    .find("h3")
+                    .text()
+                    .split(" ");
 
-                    const foods = $(element)
-                        .find("h3 + p")
-                        .text()
-                        .replace(/\t/g, "")
-                        .split("\n")
-                        .filter(s => s.length);
+                // TODO: fix äö showing as box w/ question mark
+                const foods = $(element)
+                    .find("h3 + p")
+                    .text()
+                    .replace(/\t/g, "")
+                    .split("\n")
+                    .filter(s => s.length);
 
-                    let pizzas = secondaryFoods
-                        .first()
-                        .text()
-                        .split("\n");
+                let pizzas = secondaryFoods
+                    .first()
+                    .text()
+                    .split("\n");
 
-                    let salads = secondaryFoods
-                        .last()
-                        .text()
-                        .split("\n");
+                let salads = secondaryFoods
+                    .last()
+                    .text()
+                    .split("\n");
 
-                    const day = title[0];
-                    const date = title[1] + new Date().getFullYear();
-                    const arr = finDayNames.includes(day.toLowerCase()) ? menuFi : menuEn;
+                const day = title[0];
+                // Savor's list is missing year so add it to make the dates
+                // normalized between all restaurants
+                const date = title[1] + new Date().getFullYear();
 
-                    arr.push({
-                        day,
-                        // Savor's list is missing year so add it to make the dates
-                        // normalized between all restaurants
-                        date,
-                        foods,
-                        pizzas,
-                        salads
-                    });
+                menu.push({
+                    day,
+                    date,
+                    foods,
+                    pizzas,
+                    salads
                 });
             });
 
-            return { restaurantName: "Savor", menus: { fi: menuFi, en: menuEn } };
+            return { name: "Savor", menu, url: options.uri };
         })
         .catch(e => console.error(e));
 }
@@ -80,78 +79,43 @@ async function getRavintola911() {
 
     return rp(options)
         .then($ => {
-            const menuFi = [];
-            const menuEn = [];
+            const days = ["maanantai", "tiistai", "keskiviikko", "torstai", "perjantai"];
+            const menu = [];
             let index = 0;
 
             $("#inner-content")
                 .children("p")
                 .map((i, e) => {
-                    const txt = $(e).text();
+                    const elem = $(e).text();
+                    const indexOfElement = days.findIndex(day => elem.toLowerCase().indexOf(day) > -1);
 
-                    if (txt.toLowerCase().indexOf("maanantai") > -1) {
-                        index = 0;
-                        menuFi[index] = {
-                            day: "Maanantai",
-                            date: "",
+                    if (indexOfElement > -1) {
+                        // e.g. Maanantai 11.11
+                        const dayAndDate = elem.split(" ");
+                        const day = dayAndDate[0];
+                        const date = dayAndDate[1] + `.${new Date().getFullYear()}`; // To make full date
+
+                        index = indexOfElement;
+                        menu[index] = {
+                            day,
+                            date,
                             foods: []
                         };
+                    } else {
+                        if (menu[index] != null) menu[index].foods.push(elem);
                     }
-
-                    if (txt.toLowerCase().indexOf("tiistai") > -1) {
-                        index = 1;
-                        menuFi[index] = {
-                            day: "Tiistai",
-                            date: "",
-                            foods: []
-                        };
-                    }
-
-                    if (txt.toLowerCase().indexOf("keskiviikko") > -1) {
-                        index = 2;
-                        menuFi[index] = {
-                            day: "Keskiviikko",
-                            date: "",
-                            foods: []
-                        };
-                    }
-
-                    if (txt.toLowerCase().indexOf("torstai") > -1) {
-                        index = 3;
-                        menuFi[index] = {
-                            day: "Torstai",
-                            date: "",
-                            foods: []
-                        };
-                    }
-
-                    if (txt.toLowerCase().indexOf("perjantai") > -1) {
-                        index = 4;
-                        menuFi[index] = {
-                            day: "Perjantai",
-                            date: "",
-                            foods: []
-                        };
-                    }
-
-                    menuFi[index].foods.push(txt);
                 });
 
-            // Removes the first element which is the day name + date
-            menuFi[0].foods.shift();
-            menuFi[1].foods.shift();
-            menuFi[2].foods.shift();
-            menuFi[3].foods.shift();
-            menuFi[4].foods.shift();
-            menuFi[4].foods.splice(menuFi[4].foods.length - 5, 5); // Remove the pricing info
+            // Remove the pricing info from Friday
+            if (menu[4] != null) menu[4].foods.splice(menu[4].foods.length - 5, 5);
 
-            return { restaurantName: "Ravintola 911", menus: { fi: menuFi, en: menuEn } };
+            return { name: "Ravintola 911", menu, url: options.uri };
         })
         .catch(e => console.error(e));
 }
 
 async function getFactoryVallila() {
-    return getFactory("Factory", "https://ravintolafactory.com/lounasravintolat/ravintolat/helsinki-vallila/");
+    return getFactory("Buffet Factory", "https://ravintolafactory.com/lounasravintolat/ravintolat/helsinki-vallila/");
 }
 
 async function getFactory(name, uri) {
@@ -165,9 +129,7 @@ async function getFactory(name, uri) {
     return rp(options)
         .then($ => {
             const container = $("h2.lounaslista").siblings("h3");
-            const menuFi = [];
-            const menuEn = [];
-
+            const menu = [];
             $("img").remove();
 
             // Finnish and English menu items are all inside the same div with same
@@ -202,11 +164,10 @@ async function getFactory(name, uri) {
                             .filter(str => str.length);
                     }
 
-                    const day = title[0];
+                    const day = title[0].replace("\n", "").trim();
                     const date = title[1];
-                    const arr = finDayNames.includes(day.toLowerCase()) ? menuFi : menuEn;
 
-                    arr.push({
+                    menu.push({
                         day,
                         date,
                         foods
@@ -214,20 +175,20 @@ async function getFactory(name, uri) {
                 }
             });
 
-            return { restaurantName: name, menus: { fi: menuFi, en: menuEn } };
+            return { name, menu, url: options.uri };
         })
         .catch(e => console.error(e));
 }
 
 async function fetchMenus() {
     const savor = getSavor();
-    const bistro = getFactoryBistro();
+    // const bistro = getFactoryBistro();
     const vallila = getFactoryVallila();
     const ravintola911 = getRavintola911();
 
     var lastUpdated = format(new Date(), "YYYY-MM-DD[T]HH:mm:ssZ");
 
-    return await Promise.all([savor, vallila, ravintola911, bistro]).then(restaurants => {
+    return await Promise.all([savor, vallila, ravintola911]).then(restaurants => {
         return {
             lastUpdated,
             restaurants
@@ -237,10 +198,10 @@ async function fetchMenus() {
 
 async function storeData() {
     const data = await fetchMenus();
-
-    fs.writeFile("../../public/data.json", JSON.stringify(data), err => {
+    const file = path.join(__dirname, "../../public/data.json");
+    fs.writeFile(file, JSON.stringify(data), err => {
         if (err) console.log(err);
-        console.log("Successfully written to file");
+        console.log(`Successfully wrote data to ${file}`);
     });
 }
 

@@ -2,14 +2,11 @@
     import { onMount } from "svelte";
     import FoodList from "./components/FoodList.svelte";
     import parameters from "./utils/parameters.js";
-    import i18n from "./utils/i18n.js";
 
-    let cookies = {};
-    let lightTheme = false;
     let todaysMenus = [];
     let lastUpdated = null;
 
-    let { language, day } = parameters();
+    let { day } = parameters();
 
     fetch("data.json")
         .then(response => response.json())
@@ -18,9 +15,9 @@
             // the object into
             // TODO: move logic to data lambda
             todaysMenus = json.restaurants.map(d => ({
-                restaurantName: d.restaurantName,
+                name: d.name,
                 url: d.url,
-                menu: d.menus[language].filter(obj => obj.day.toLowerCase() === day)[0]
+                menu: d.menu.filter(obj => obj.day.toLowerCase() === day)[0]
             }));
 
             lastUpdated = new Date(json.lastUpdated)
@@ -30,30 +27,7 @@
         })
         .catch(e => console.error(e));
 
-    // Get cookies
-    document.cookie.split(";").forEach(d => {
-        let parts = d.split("=");
-        cookies[parts[0]] = parts[1];
-    });
-
-    function themeChange() {
-        lightTheme = !lightTheme;
-
-        if (lightTheme) {
-            document.cookie = "theme=light; path=/";
-            document.body.classList.add("light");
-        } else {
-            document.cookie = "theme=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-            document.body.classList.remove("light");
-        }
     }
-
-    onMount(() => {
-        if (cookies.theme == "light") {
-            themeChange();
-            document.getElementById("themeSwitch").checked = true;
-        }
-    });
 </script>
 
 <style>
@@ -71,35 +45,33 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        margin: 16px 2vw 0;
     }
 
     h1 {
         font-size: 2.8rem;
         font-weight: bold;
-        margin: 16px 2vw 0;
+        margin: 0;
         flex-grow: 1;
     }
 
     .weekdays {
-        margin: 16px;
+        margin: 16px 2vw 0;
     }
 
     .weekdays a {
-        margin-right: 16px;
+        margin: 4px 16px 0 0;
     }
 
-    .switch {
-        font-size: 1.2rem;
-        opacity: 0.65;
-        min-width: 100px;
-        flex-shrink: 0;
-        margin: 8px 8px 0;
+    .weekdays a.selected {
+        font-weight: bold;
+        text-decoration: underline;
     }
 
-    @media screen and (min-width: 768px) {
-        .switch {
-            margin-top: 16px;
-        }
+    button {
+        margin: 16px auto 0 2vw;
+        font-size: 1.4rem;
+        border-radius: 8px;
     }
 
     section {
@@ -110,9 +82,9 @@
         flex-grow: 1;
     }
 
-    footer {
+    .updated {
         font-size: 1.2rem;
-        margin: 16px auto;
+        margin: 24px auto;
         text-align: center;
         flex-shrink: 0;
     }
@@ -121,33 +93,26 @@
 <main class="container">
     <header>
         <h1>
-            {i18n('title')}
+            Ruokalistat päivälle
             <u>{day}</u>
         </h1>
-        <label class="switch">
-            {i18n('theme_mode')}
-            <input id="themeSwitch" type="checkbox" on:change={themeChange} />
-        </label>
     </header>
     <div class="weekdays">
-        <a href="?day=maanantai">{i18n('monday')}</a>
-        <a href="?day=tiistai">{i18n('tuesday')}</a>
-        <a href="?day=keskiviikko">{i18n('wednesday')}</a>
-        <a href="?day=torstai">{i18n('thursday')}</a>
-        <a href="?day=perjantai">{i18n('friday')}</a>
+        <a class:selected={day === 'maanantai'} href="?paiva=maanantai">Maanantai</a>
+        <a class:selected={day === 'tiistai'} href="?paiva=tiistai">Tiistai</a>
+        <a class:selected={day === 'keskiviikko'} href="?paiva=keskiviikko">Keskiviikko</a>
+        <a class:selected={day === 'torstai'} href="?paiva=torstai">Torstai</a>
+        <a class:selected={day === 'perjantai'} href="?paiva=perjantai">Perjantai</a>
     </div>
     {#if todaysMenus.length === 0}
-        <p>{i18n('loading')}</p>
+        <p>Ladataan...</p>
+        >
     {:else}
         <section>
             {#each todaysMenus as restaurant}
-                <FoodList
-                    restaurantName={restaurant.restaurantName}
-                    url={restaurant.url}
-                    menu={restaurant.menu}
-                    {language} />
+                <FoodList name={restaurant.name} url={restaurant.url} menu={restaurant.menu} />
             {/each}
         </section>
+        <footer class="updated">Tiedot päivitetty {lastUpdated}</footer>
     {/if}
-    <footer>{i18n('last_updated') + ' ' + lastUpdated}</footer>
 </main>
