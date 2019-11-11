@@ -27,6 +27,10 @@
         })
         .catch(e => console.error(e));
 
+    function randomize() {
+        const randomIndex = Math.floor(Math.random() * todaysMenus.length);
+        const winner = todaysMenus[randomIndex].name;
+        alert(winner);
     }
 </script>
 
@@ -104,6 +108,7 @@
         <a class:selected={day === 'torstai'} href="?paiva=torstai">Torstai</a>
         <a class:selected={day === 'perjantai'} href="?paiva=perjantai">Perjantai</a>
     </div>
+    <button on:click={randomize}>Valitse puolestani</button>
     {#if todaysMenus.length === 0}
         <p>Ladataan...</p>
         >
