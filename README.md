@@ -26,10 +26,10 @@ Run now to deploy the app to your account
 now
 ```
 
-To deploy the app with `kumpulalounas` alias run now with production target
+To deploy the app with `kumpulalounas` alias (as defined in `now.json`) run now with `--prod` flag.
 
 ```bash
-now --target production
+now run release
 ```
 
 ## Licence
