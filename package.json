@@ -1,5 +1,5 @@
 {
-    "name": "kumpulalunch",
+    "name": "kumpulalounas",
     "version": "0.1.0",
     "devDependencies": {
         "copy-webpack-plugin": "^5.0.3",
@@ -20,7 +20,8 @@
     "scripts": {
         "build": "cross-env NODE_ENV=production webpack",
         "dev": "webpack-dev-server --content-base public",
-        "now-build": "npm run build"
+        "now-build": "npm run build",
+        "release": "now --prod"
     },
     "dependencies": {
         "cheerio": "^1.0.0-rc.3",
