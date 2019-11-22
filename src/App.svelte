@@ -1,6 +1,4 @@
 <script>
-    import { onMount } from "svelte";
-    import FoodList from "./components/FoodList.svelte";
     import parameters from "./utils/parameters.js";
 
     let todaysMenus = [];
@@ -92,6 +90,55 @@
         text-align: center;
         flex-shrink: 0;
     }
+
+    .foodlist-container {
+        width: 100%;
+        height: auto;
+        background: var(--menu-container-background);
+        margin: 16px;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.2), 0 0 20px rgba(0, 0, 0, 0.05);
+    }
+
+    @media screen and (min-width: 768px) {
+        .foodlist-container {
+            max-width: calc(100% / 2 - 32px);
+        }
+    }
+
+    @media screen and (min-width: 1024px) {
+        .foodlist-container {
+            max-width: calc(100% / 3 - 32px);
+            margin-bottom: auto;
+        }
+    }
+
+    .foodlist-container h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        background: var(--menu-header-background);
+        padding: 12px;
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.03);
+    }
+
+    .foodlist-container .content {
+        padding: 0 12px 12px;
+    }
+
+    .foodlist-container ul {
+        padding-left: 16px;
+        margin: 0;
+    }
+
+    .foodlist-container li {
+        list-style-type: circle;
+        line-height: 1.6;
+    }
+
+    .foodlist-container p {
+        margin: 12px 0;
+    }
 </style>
 
 <main class="container">
@@ -115,7 +162,42 @@
     {:else}
         <section>
             {#each todaysMenus as restaurant}
-                <FoodList name={restaurant.name} url={restaurant.url} menu={restaurant.menu} />
+                <div class="foodlist-container">
+                    <a href={restaurant.url}>
+                        <h2>{restaurant.name}</h2>
+                    </a>
+                    <div class="content">
+                        {#if !restaurant.menu}
+                            <p>Ruokalistaa ei löytynyt</p>
+                        {:else}
+                            <ul>
+                                {#each restaurant.menu.foods as food}
+                                    <li>{food}</li>
+                                {/each}
+                            </ul>
+                            {#if restaurant.menu.pizzas}
+                                <p>
+                                    <strong>Pitsat</strong>
+                                </p>
+                                <ul>
+                                    {#each restaurant.menu.pizzas as food}
+                                        <li>{food}</li>
+                                    {/each}
+                                </ul>
+                            {/if}
+                            {#if restaurant.menu.salads}
+                                <p>
+                                    <strong>Salaatit</strong>
+                                </p>
+                                <ul>
+                                    {#each restaurant.menu.salads as food}
+                                        <li>{food}</li>
+                                    {/each}
+                                </ul>
+                            {/if}
+                        {/if}
+                    </div>
+                </div>
             {/each}
         </section>
         <footer class="updated">Tiedot päivitetty {lastUpdated}</footer>
