@@ -128,52 +128,48 @@ async function getFactory(name, uri) {
 
     return rp(options)
         .then($ => {
-            const container = $("h2.lounaslista").siblings("h3");
+            const container = $("h2.lounaslista").parent();
+
+            // Remove the lunch list title
+            container.find("h2").remove();
+
+            // Remove the leading message  if found
+            container.find("p.lead").remove();
+
+            // Remove random image gallery
+            container.find("#blueimp-gallery").remove();
+
+            // Remove all images
+            container
+                .find("img")
+                .parent()
+                .remove();
+
             const menu = [];
-            $("img").remove();
 
-            // Finnish and English menu items are all inside the same div with same
-            // strucutre, the array defines each day as [finItemIndex, engItemIndex]
-            // so that we can pick both languages during the loop
-            const daySelectors = [[0, 5], [1, 6], [2, 7], [3, 8], [4, 9]];
+            for (let step = 0; step < 5; step++) {
+                const d = $(container)
+                    .find("h3")
+                    .eq(step);
 
-            daySelectors.forEach(indexes => {
-                for (let index of indexes) {
-                    const element = container.eq(index);
-                    const title = element.text().split(" ");
+                const title = $(d)
+                    .text()
+                    .split(" ");
+                const day = title[0].replace("\n", "").trim();
+                const date = title[1];
 
-                    // Sometimes Factory menu does not have translations. Exit early when
-                    // we detect a empty title is found
-                    if (!title[0]) break;
+                const foods = $(d)
+                    .next()
+                    .text()
+                    .split("\n")
+                    .filter(str => str.length);
 
-                    let foods = element
-                        .next("p")
-                        .text()
-                        .split("\n")
-                        .filter(str => str.length);
-
-                    // For some reason sometimes the menu has a image inside a <p> tag
-                    // and another <p> tag as it's sibling with the food list. Other times
-                    // the image is inside the same <p> tag where the food list is
-                    if (foods.length === 0) {
-                        foods = element
-                            .next("p")
-                            .next("p")
-                            .text()
-                            .split("\n")
-                            .filter(str => str.length);
-                    }
-
-                    const day = title[0].replace("\n", "").trim();
-                    const date = title[1];
-
-                    menu.push({
-                        day,
-                        date,
-                        foods
-                    });
-                }
-            });
+                menu.push({
+                    day,
+                    date,
+                    foods
+                });
+            }
 
             return { name, menu, url: options.uri };
         })
@@ -206,7 +202,7 @@ async function storeData() {
 }
 
 async function logData() {
-    const data = await fetchMenus();
+    const data = await getFactoryVallila();
     console.log(JSON.stringify(data));
 }
 
